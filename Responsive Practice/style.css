@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: green;
+    padding: 10px;
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    /* text-align: center; */
+    margin-left: 10px;
+}
+.box{
+    display: inline-block;
+    margin: 0px;
+    background-color: antiquewhite;
+    width: 24%;
+    height: 100px;
+}
+.name{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.line{
+    margin-top: 21px;
+    margin-left: 20px;
+}
+
+/* For Mobile phones and small devices */
+
+@media screen and (max-width: 600px){
+    .box{
+        width: 96%;
+        margin-top: 5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 600px){
+    .box{
+        width: 48%;
+        margin-top: 5px;
+    }
+}
+
+/* Medium devices and above (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .box{
+        width: 24%;
+    }
+}
