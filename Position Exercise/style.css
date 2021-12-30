@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+.heading{
+    height: 400px;
+    background-color: #855059;   
+}
+
+.product{
+    position: absolute;
+    left: 50%;
+    bottom: 78%;
+}
+
+nav{
+    height: 53px;
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link{
+    padding: 15px 120px;
+}
+
+.nav-link li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.sub-heading{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
