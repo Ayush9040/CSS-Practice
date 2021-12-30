@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #385c7a;
+}
+
+.common{
+    width: 63%;
+    margin-left: 234px;
+    margin-top: 40px;
+    background-color: #daff7f;
+    height: 125px;
+    padding: 27px 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 70px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 14px;
+}
+
+.two img{
+    float: right;
+}
+
