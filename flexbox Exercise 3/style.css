@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.container nav{
+    width: 20%;
+    background-color: lightblue;
+    height: 100vh;
+    padding: 10px 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.article{
+    height: 60vh;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 10px;
+}
+
+.header, .footer{
+    height: 20vh;
+    background-color: lightcoral;
+    padding: 10px 10px;
+}
